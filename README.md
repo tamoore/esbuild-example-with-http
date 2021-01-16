@@ -3,7 +3,7 @@
 ## Setup
 
 Clone this repo to some filesystem that has `go` setup. All commands below
-are from the root.
+are from the project root.
 
 ## Building
 
