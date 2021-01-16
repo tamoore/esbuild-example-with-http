@@ -1,5 +1,10 @@
 # esbuild example with remote es modules
 
+## Setup
+
+Clone this repo to some filesystem that has `go` setup. All commands below
+are from the root.
+
 ## Building
 
 Ensuring you have a `go` environment setup correctly:
