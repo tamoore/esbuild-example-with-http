@@ -1,0 +1,13 @@
+# ignore build binary
+build
+*-binary
+
+# ignore out.js
+out.js
+
+# ignore node_modules
+node_modules
+
+# ensure no package.json is included
+package.json
+package-log.json
