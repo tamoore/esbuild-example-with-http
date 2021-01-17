@@ -1,6 +1,7 @@
 # ignore build binary
 build
 *-binary
+b
 
 # ignore out.js
 out.js
