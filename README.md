@@ -5,19 +5,29 @@
 Clone this repo to some filesystem that has `go` setup. All commands below
 are from the project root.
 
-## Building
-
-Ensuring you have a `go` environment setup correctly:
+Make sure that you have setup your $GOPATH correctly then run:
 
 ```shell
-go run cmd/main.go
+go get github.com/tamoore/esbx
 ```
 
-A file named `out.js` should now be present on the file system.
+### Updating
 
-### Note
+To update the build binary
 
-You could also build this if you wanted
+```shell
+go get -u github.com/tamoore/esbx
+```
+
+## Building
+
+After install the binary above:
+
+```shell
+esbx --entrypoint ./src/app.jsx
+```
+
+A file named `build/app.js` should now be present on the file system.
 
 ## Running
 
@@ -26,3 +36,5 @@ Once you have successfully built the output run:
 ```shell
 node out.js
 ```
+
+This will verify that it has been built correctly
