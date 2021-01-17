@@ -1,3 +1,5 @@
-h1 {
-  font-size: large;
+:host {
+  display: block;
+  contain: content;
+  all: unset !important;
 }

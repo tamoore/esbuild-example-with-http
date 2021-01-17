@@ -14,5 +14,5 @@ console.log(Template);
 console.log(identity("<lodash identity call>"));
 
 // Output render to string
-let Greet = () => <h1>Hello, world!</h1>;
+let Greet = () => <h1>Hello, world! How are you?</h1>;
 console.log(Server.renderToString(<Greet />));

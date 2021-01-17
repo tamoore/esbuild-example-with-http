@@ -38,3 +38,11 @@ node out.js
 ```
 
 This will verify that it has been built correctly
+
+## Watch builds
+
+Using `watchexec` a watched build is incredibly fast:
+
+```shell
+watchexec -w ./src 'esbx -entrypoint ./src/app.jsx'
+```
